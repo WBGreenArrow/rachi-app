@@ -16,8 +16,12 @@ export const NavBar = () => {
                     <li>
                         <a href='#app'>App</a>
                     </li>
-                    <li>Planos</li>
-                    <li>Contato</li>
+                    <li>
+                        <a href='#plans'>Planos</a>
+                    </li>
+                    <li>
+                        <a href='#about'> Contato</a>
+                    </li>
                 </div>
             </ul>
         </nav>

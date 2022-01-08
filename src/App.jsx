@@ -4,6 +4,7 @@ import { Features } from "./components/Features";
 import { Info } from "./components/Info";
 import { AppScreen } from "./components/AppScreen";
 import { Plans } from "./components/Plans";
+import { About } from "./components/About";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Info />
             <AppScreen />
             <Plans />
+            <About />
         </div>
     );
 }

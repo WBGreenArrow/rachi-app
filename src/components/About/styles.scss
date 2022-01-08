@@ -1,0 +1,88 @@
+.container {
+    height: 100vh;
+    padding-top: 70px;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .about-img {
+        width: 1440px;
+        height: 400px;
+
+        background-image: url("../../assets/aboutBackground.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .about-img-filter {
+        width: 1440px;
+        height: 400px;
+        background: rgba(41, 49, 69, 0.7);
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            margin-top: 50px;
+            font-family: Sora, sans-serif;
+            font-size: 40px;
+            color: #fff;
+        }
+
+        p {
+            width: 524px;
+            margin-top: 16px;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+            text-align: center;
+            color: #fff;
+            line-height: 25px;
+        }
+
+        form {
+            margin-top: 99px;
+
+            input {
+                width: 300px;
+                height: 32px;
+                color: #fff;
+                font-family: Inter, sans-serif;
+                font-size: 18px;
+                border: none;
+                border-bottom: solid 1px #fff;
+                background: none;
+                outline: none;
+            }
+
+            input::placeholder {
+                color: #fff;
+            }
+
+            button {
+                margin-left: 40px;
+                width: 118px;
+                height: 38px;
+
+                color: #fff;
+                background-color: #0f9afe;
+                border: none;
+                border-radius: 50px;
+
+                font-family: Inter, sans-serif;
+                font-size: 18px;
+
+                cursor: pointer;
+            }
+        }
+    }
+    footer {
+        margin-top: 41px;
+        font-size: 20px;
+        font-family: Sora, sans-serif;
+    }
+}

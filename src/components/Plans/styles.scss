@@ -62,6 +62,21 @@
                 line-height: 25px;
                 text-align: center;
             }
+
+            button {
+                width: 230px;
+                height: 43px;
+                margin-top: 58px;
+                background-color: #0f9afe;
+                border-radius: 50px;
+                border: none;
+
+                cursor: pointer;
+
+                font-family: Inter, sans-serif;
+                font-size: 20px;
+                color: #fff;
+            }
         }
 
         .carder:nth-child(2) {

@@ -3,7 +3,7 @@ import "./styles.scss";
 
 export const Plans = () => {
     return (
-        <div className='container'>
+        <div className='container' id='plans'>
             <div className='container-header'>
                 <h1>Nossos Planos</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>

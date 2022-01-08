@@ -1,13 +1,30 @@
-.main {
-    width: 100%;
+.container {
+    width: 100vw;
     height: 100vh;
-    padding-top: 70px;
-    background-color: #eff8ff;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    padding-top: 70px;
+
+    .background-container {
+        width: 100%;
+        height: 100%;
+        background: #eff8ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main {
+        width: 1440px;
+
+        padding: 0 70px;
+
+        display: flex;
+
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+    }
 
     .main-text {
         h1 {
@@ -34,7 +51,6 @@
     }
 
     img {
-        margin-left: 96px;
         width: 500px;
         height: 500px;
     }

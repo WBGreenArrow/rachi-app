@@ -9,7 +9,8 @@
     flex-direction: column;
 
     .about-img {
-        width: 1440px;
+        width: 100%;
+        max-width: 1440px;
         height: 400px;
 
         background-image: url("../../assets/aboutBackground.png");
@@ -19,7 +20,8 @@
     }
 
     .about-img-filter {
-        width: 1440px;
+        width: 100%;
+        max-width: 1440px;
         height: 400px;
         background: rgba(41, 49, 69, 0.7);
 
@@ -57,10 +59,10 @@
                 border-bottom: solid 1px #fff;
                 background: none;
                 outline: none;
-            }
 
-            input::placeholder {
-                color: #fff;
+                &::placeholder {
+                    color: #fff;
+                }
             }
 
             button {

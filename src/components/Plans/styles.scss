@@ -11,6 +11,7 @@
 
     .container-header {
         h1 {
+            margin-top: 50px;
             font-family: Sora, "sans-serif";
             font-size: 40px;
             font-weight: 600;
@@ -25,6 +26,102 @@
             line-height: 25px;
             color: #6e7275;
             text-align: center;
+        }
+    }
+
+    .container-carders {
+        margin-top: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        .carder {
+            width: 370px;
+            height: 470px;
+            background-color: #eff8ff;
+            border-radius: 8px;
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h2 {
+                margin-top: 56px;
+                font-family: Sora, sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                color: #293145;
+            }
+
+            p {
+                width: 300px;
+                margin-top: 47px;
+                font-family: Inter, sans-serif;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+            }
+        }
+
+        .carder:nth-child(2) {
+            color: #fff;
+            background-color: #293145;
+            margin: 0 30px;
+
+            h2 {
+                margin-top: 32px;
+                color: #fff;
+            }
+
+            label {
+                width: 164px;
+                height: 27px;
+                margin-top: 13px;
+                border-radius: 15px;
+                background-color: #0f9afe;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                font-family: Inter, sans-serif;
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            h3 {
+                color: #fff;
+            }
+
+            .price {
+                margin-top: 39px;
+            }
+        }
+
+        .price {
+            margin-top: 59px;
+            display: flex;
+            color: #293145;
+
+            h3 {
+                font-family: Inter, sans-serif;
+                height: 60px;
+            }
+
+            h3:nth-child(1) {
+                font-size: 20px;
+            }
+
+            h3:nth-child(2) {
+                font-size: 50px;
+            }
+            h3:nth-child(3) {
+                display: flex;
+                align-items: flex-end;
+                font-size: 26px;
+            }
         }
     }
 }

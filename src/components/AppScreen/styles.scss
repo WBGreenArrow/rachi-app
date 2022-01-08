@@ -1,0 +1,55 @@
+.app-screen {
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+    background-color: #eff8ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    .app-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            font-family: Sora, "sans-serif";
+            color: #293145;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 40px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            width: 444px;
+            font-family: Inter, "sans-serif";
+            color: #6e7275;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+
+        .app-btn {
+            cursor: pointer;
+            margin-top: 35px;
+
+            img {
+                width: 165px;
+                height: 53px;
+            }
+
+            img:nth-child(2) {
+                margin-left: 28px;
+            }
+        }
+    }
+
+    .img-background {
+        margin-left: 170px;
+        width: 400px;
+        height: 400px;
+    }
+}

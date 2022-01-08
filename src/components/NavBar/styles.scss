@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-menu-list {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+
+    a > img {
+        width: 100px;
+        height: 30px;
+        margin-left: 70px;
+    }
+}
+
+.nav-menu-item {
+    li {
+        margin-left: 60px;
+        font-family: Inter;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    li:nth-child(4) {
+        margin-right: 70px;
+    }
+}

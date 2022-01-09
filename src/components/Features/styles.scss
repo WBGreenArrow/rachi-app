@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
 
-    padding-top: 70px;
+    padding-top: 7rem;
 
     .background-container {
         width: 100%;
@@ -14,9 +14,9 @@
     }
 
     .main {
-        width: 1440px;
+        width: 144rem;
 
-        padding: 0 70px;
+        padding: 0 7rem;
 
         display: flex;
 
@@ -27,31 +27,44 @@
     }
 
     .main-text {
+        display: flex;
+        flex-direction: column;
         h1 {
-            width: 580px;
+            width: 58rem;
             color: #293145;
             font-family: Sora;
-            font-size: 48px;
+            font-size: 4.8rem;
             font-weight: 600;
-            line-height: 60px;
+            line-height: 6rem;
         }
 
         button {
-            width: 200px;
-            height: 56px;
-            margin-top: 66px;
+            width: 20rem;
+            height: 5.6rem;
+            margin-top: 6.6rem;
             color: #fff;
             background-color: #0f9afe;
             font-family: Inter;
-            font-size: 20px;
-            font-weight: 24px;
-            border-radius: 50px;
+            font-size: 2rem;
+            font-weight: 2.4rem;
+            border-radius: 5rem;
             border: none;
         }
     }
 
     img {
-        width: 500px;
-        height: 500px;
+        width: 50rem;
+        height: 50rem;
+    }
+
+    @media screen and(max-width:975px) {
+        .main {
+            flex-direction: column-reverse;
+
+            .main-text {
+                justify-content: center;
+                align-items: center;
+            }
+        }
     }
 }

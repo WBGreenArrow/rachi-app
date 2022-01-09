@@ -1,6 +1,6 @@
 .main-info {
     height: 100vh;
-    padding-top: 70px;
+    padding-top: 7rem;
     background-color: #fff;
 
     display: flex;
@@ -11,10 +11,10 @@
     h1 {
         font-family: Sora;
         font-weight: 600;
-        font-size: 40px;
-        font-weight: 50px;
+        font-size: 4rem;
+        font-weight: 5rem;
         color: #293145;
-        margin-bottom: 84px;
+        margin-bottom: 8.4rem;
     }
 
     .info-carder {
@@ -26,26 +26,26 @@
             align-items: center;
 
             img {
-                width: 60px;
-                height: 60px;
+                width: 6rem;
+                height: 6rem;
             }
 
             h2 {
-                font-size: 18px;
+                font-size: 1.8rem;
                 font-family: Sora;
                 font-weight: 600;
-                line-height: 22px;
+                line-height: 2.2rem;
                 color: #293145;
-                margin-top: 40px;
-                margin-bottom: 16px;
+                margin-top: 4rem;
+                margin-bottom: 1.6rem;
             }
 
             p {
-                width: 210px;
+                width: 21rem;
                 font-family: Inter;
-                font-size: 16px;
+                font-size: 1.6rem;
                 font-weight: 400;
-                line-height: 26px;
+                line-height: 2.6rem;
 
                 text-align: center;
             }
@@ -53,6 +53,6 @@
     }
 
     .carder:nth-child(2) {
-        padding: 0 119px;
+        padding: 0 11.9rem;
     }
 }

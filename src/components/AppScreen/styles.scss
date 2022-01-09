@@ -1,7 +1,7 @@
 .app-screen {
     width: 100%;
     height: 100vh;
-    padding-top: 70px;
+    padding-top: 7rem;
     background-color: #eff8ff;
 
     display: flex;
@@ -17,39 +17,39 @@
         h1 {
             font-family: Sora, "sans-serif";
             color: #293145;
-            font-size: 32px;
+            font-size: 3.2rem;
             font-weight: 600;
-            line-height: 40px;
-            margin-bottom: 24px;
+            line-height: 4rem;
+            margin-bottom: 2.4rem;
         }
 
         p {
-            width: 444px;
+            width: 44.4rem;
             font-family: Inter, "sans-serif";
             color: #6e7275;
-            font-size: 16px;
+            font-size: 1.6rem;
             font-weight: 400;
-            line-height: 26px;
+            line-height: 2.6rem;
         }
 
         .app-btn {
             cursor: pointer;
-            margin-top: 35px;
+            margin-top: 3.5rem;
 
             img {
-                width: 165px;
-                height: 53px;
+                width: 16.5rem;
+                height: 5.3rem;
             }
 
             img:nth-child(2) {
-                margin-left: 28px;
+                margin-left: 2.8rem;
             }
         }
     }
 
     .img-background {
-        margin-left: 170px;
-        width: 400px;
-        height: 400px;
+        margin-left: 17rem;
+        width: 40rem;
+        height: 40rem;
     }
 }

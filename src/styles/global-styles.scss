@@ -11,4 +11,9 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
+
+    @media screen and (max-width: 1366px) {
+        font-size: 50%;
+    }
 }

@@ -9,17 +9,17 @@ export const Info = () => {
         <div className='main-info' id='info'>
             <h1>Como funciona</h1>
             <div className='info-carder'>
-                <div className='carder'>
+                <div className='carder-info'>
                     <img src={AddIcon} alt='img-add-user' />
                     <h2>Crie Conexões</h2>
                     <p>Lorem ipsum dolor sit amet, consecteteu.</p>
                 </div>
-                <div className='carder'>
+                <div className='carder-info'>
                     <img src={VerifyIcon} alt='verify-icon' />
                     <h2>100% gratuito</h2>
                     <p>Lorem ipsum dolor sit amet, consecteteu.</p>
                 </div>
-                <div className='carder'>
+                <div className='carder-info'>
                     <img src={FaceIcon} alt='face-icon' />
                     <h2>Compartilhamento</h2>
                     <p>Lorem ipsum dolor sit amet, consecteteu.</p>

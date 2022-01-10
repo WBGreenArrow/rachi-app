@@ -1,10 +1,10 @@
 import React from "react";
-import { NavBar } from "./components/NavBar";
-import { Features } from "./components/Features";
-import { Info } from "./components/Info";
-import { AppScreen } from "./components/AppScreen";
-import { Plans } from "./components/Plans";
-import { About } from "./components/About";
+import { NavBar } from "./screens/NavBar";
+import { Features } from "./screens/Features";
+import { Info } from "./screens/Info";
+import { AppScreen } from "./screens/AppScreen";
+import { Plans } from "./screens/Plans";
+import { About } from "./screens/About";
 
 function App() {
     return (

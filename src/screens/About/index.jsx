@@ -1,4 +1,5 @@
 import React from "react";
+import { Carder } from "../../components/Carder";
 import "./styles.scss";
 
 export const About = () => {
